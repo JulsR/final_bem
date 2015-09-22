@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 
     watch: {
       styles: {
-        files: ['dist/scss/**/**.scss'], // which files to watch
+        files: ['dist/scss/**/*.scss'], // which files to watch
         tasks: ['sass'],
         options: {
           nospawn: true
