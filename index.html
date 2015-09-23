@@ -3,8 +3,11 @@
   <head>
     <title>Julissa Roa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- dist/css links -->
     <link rel="stylesheet" href="dist/css/application.css">
     <link rel="stylesheet" type="text/css" href="dist/css/owl-demo.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/motio_panning.css">
 
     <!-- Owl links -->
     <!-- Important Owl stylesheet -->
@@ -19,18 +22,24 @@
       <!-- Include js plugin -->
       <script src="dist/js/owl.carousel.js"></script>
 
+      <script src="dist/js/owl.js" type="text/javascript"></script>
 
+      <!-- Motion panning -->
+      <script src="dist/js/motio.min.js" type="text/javascript"></script>
+      <script src="dist/js/motio_panning.js" type="text/javascript"></script>
 
   </head>
 
   <body>
 
     <div class="container">
+
+      <div id="panning" class="panning"></div>
+     
+
+
       <header class="panel--padded--centered" role="banner"> 
-        <a class="site-logo" href="/">
-          <b class="srt">Julissa Roa</b>
-           
-        </a>
+      
 
         <nav class="navbar" role="navigation">
           <span class="icn-toggle">
@@ -157,22 +166,6 @@
       </footer>
    
 
-<!-- Owl carousel -->
-   <script type="text/javascript">
-         $(document).ready(function() {
- 
-          $("#owl-demo").owlCarousel({
-         
-              autoPlay: 3000, //Set AutoPlay to 3 seconds
-         
-              items : 4,
-              itemsDesktop : [1199,3],
-              itemsDesktopSmall : [979,3]
-         
-          });
-         
-        });
-   </script>
 
 
   </body>
