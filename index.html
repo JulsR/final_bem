@@ -4,6 +4,23 @@
     <title>Julissa Roa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dist/css/application.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/owl-demo.css">
+
+    <!-- Owl links -->
+    <!-- Important Owl stylesheet -->
+      <link rel="stylesheet" href="dist/css/owl.carousel.css">
+ 
+      <!-- Default Theme -->
+      <link rel="stylesheet" href="dist/css/owl.theme.css">
+       
+      <!--  jQuery 1.7+  -->
+      <script src="dist/js/jquery-1.9.1.min.js"></script>
+       
+      <!-- Include js plugin -->
+      <script src="dist/js/owl.carousel.js"></script>
+
+
+
   </head>
 
   <body>
@@ -24,6 +41,7 @@
             <li class="nav__item"><a href="#">HOME</a></li>
             <li class="nav__item"><a href="#skills">SKILLS</a></li>
             <li class="nav__item--current"><a href="#portfolio">PORTFOLIO</a></li>
+             <li class="nav__item"><a href="#clients">CLIENTS</a></li>
             <li class="nav__item"><a href="#about">ABOUT</a></li>
             <li class="nav__item"><a href="#contact">CONTACT</a></li>
           </ul>
@@ -71,6 +89,30 @@
   
     </div>
 
+    <div class="panel--padded--centered" id="clients">  
+     <h4>CLIENTS</h4>
+
+
+
+
+      <div id="owl-demo">
+          
+        <div class="item"><img src="dist/img/logo.png" alt="Owl Image"></div>
+        <div class="item"><img src="dist/img/tadia.png"alt="Owl Image"></div>
+        <div class="item"><img src="dist/img/baiamag.jpg" alt="Owl Image"></div>
+        <div class="item"><img src="dist/img/typoSzo.png" alt="Owl Image"></div>
+         <div class="item"><img src="dist/img/tadia.png"alt="Owl Image"></div>
+           <div class="item"><img src="dist/img/baiamag.jpg" alt="Owl Image"></div>
+        
+ 
+      </div>
+      
+    </div>
+
+
+
+
+
     
      <div class="panel--padded--centered" id="contact">
       <h4>CONTACT</h4>
@@ -114,5 +156,24 @@
         <p>Copyright &#169 Julissa Roa</p>
       </footer>
    
+
+<!-- Owl carousel -->
+   <script type="text/javascript">
+         $(document).ready(function() {
+ 
+          $("#owl-demo").owlCarousel({
+         
+              autoPlay: 3000, //Set AutoPlay to 3 seconds
+         
+              items : 4,
+              itemsDesktop : [1199,3],
+              itemsDesktopSmall : [979,3]
+         
+          });
+         
+        });
+   </script>
+
+
   </body>
 </html>
