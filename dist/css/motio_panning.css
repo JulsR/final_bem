@@ -1,6 +1,6 @@
 .panning {
-    width: auto; // Span to the full width of container
-    height: 300px;
+    width: auto; 
+    height: 500px;
     background: url('../../dist/img/rosas.jpg');
 }
 
